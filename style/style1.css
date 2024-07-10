@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Azeret Mono", sans-serif;
+}
+/* Assignment-1 styles */
+.primary-color{
+    color: #3b3c3f;
+}
+.btn-primary{
+    padding: 12px 20px;
+}
+.cmn-bdr{
+    border: 0.4px solid #dddada;
+    padding: 30px;
+    gap: 50px;
+    border-radius: 16px;
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding: 20px 30px;
+}
+nav h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+nav button{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #0d1321;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* banner1 styles */
+
+.banner1{
+    background: url(../assets/Hero-bg.png);
+    text-align: center;
+    /* padding: 26px 225px 45px 225px; */
+    /* padding: 20px; */
+}
+
+.banner1 h1{
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 68px;
+}
+.banner1 p{
+    line-height: 28px;
+    /* padding: 30px; */
+}
+.banner1 button{
+    padding: 15px;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* banner2 styles */
+.container{
+    /* padding-top: 48px; */
+    max-width: 100%;
+    height: auto;
+}
+.container button{
+    text-decoration: none;
+}
+
+.banner2 h1{
+    font-weight: bolder;
+}
+.banner2 .banner2-title{
+    text-align: center;
+}
+.banner2 .content1{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner2 .content2{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner2 .content3{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.content h4 p button{
+    margin-bottom: 10px;
+}
+
+/* banner3 styles */
+
+.banner3{
+    text-align: center;
+    background-color: #f5f9ff;
+    border-radius: 16px;
+}
+.banner3-title h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.banner3-title p{
+    line-height: 26px;
+}
+.banner3 .banner3-video iframe{
+    max-width: 100%;
+    background-size: cover;
+    max-height: auto;
+    border-radius: 16px;
+}
+
+/* banner4 styles */
+.banner4{
+    text-align: center;
+    align-items: center;
+    height: auto;
+}
+
+.banner4 .card-list{
+    max-width: 100%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-size: cover;
+    gap: 10px;
+}
+.card-list a{
+    text-decoration: none;
+    color: #0d1321;
+    text-decoration: underline;
+}
+.card-list .pad-common{
+    max-width: 100%;
+    padding: 20px;
+    background-color: #f5f9ff;
+    border-radius: 16px;
+    text-decoration: none;
+}
+.card-list .card1{
+    background-color: #fdefec;
+}
+
+.card-list .card3{
+    background-color: #effaef;
+}
+
+
+/* Next learn banner styles */
+
+.next-learn .common{
+    align-items: center;
+}
+.next-learn a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #0d1321;
+}
+.next-learn .common{
+    text-align: left;
+    display: flex;
+    margin-top: 50px;
+}
+
+/* footer styles */
+.footer1{
+    background: linear-gradient(to bottom,rgba(0,0,0,0.7), rgba(0,0,0,0)), url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    padding: 3em;
+    color: white;
+}
+.footer1 p{
+    color: #dddada;
+}
+.footer1 input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.footer1 .cmt{
+    text-align: left;
+    color: #dddada;
+}
+/* footer2 styles */
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+
+main .banner2,main .banner3,main .banner4 {
+    padding: 20px;
+}
